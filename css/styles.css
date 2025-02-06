@@ -142,7 +142,6 @@ main {
   .bento {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: 324px 60px 156px 246px;  */
     gap: 1.8rem;
     grid-template-areas:
       "card1 card1"
