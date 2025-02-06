@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "DMSans Medium";
+  src: url("/assets/fonts/static/DMSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "DMSans MediumItalic";
+  src: url("/assets/fonts/static/DMSans-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "DMSans Regular";
+  src: url("/assets/fonts/static/DMSans-Regular.ttf");
+}
+
+h1,
+h2,
+p {
+  line-height: 1em;
+}
+
+h1,
+h2 {
+  font-family: "DMSans Medium", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+  text-wrap: balance;
+}
+
+.h1 {
+  font-size: clamp(2.5rem, 6vw, 3.4rem);
+}
+
+.h2v1 {
+  font-size: clamp(1.4rem, 3.5vw, 1.8rem);
+}
+
+h2.h2v2 {
+  font-size: clamp(1.8rem, 3vw, 2.2rem);
+}
+
+.yellow-500 {
+  color: var(--Yellow-500);
+}
+
+.purple-500 {
+  color: var(--Purple-500);
+}
